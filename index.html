@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>S.K.P Coconut | Fresh Coconuts in Thanjavur</title>
+
+<meta name="description" content="S.K.P Coconut - Fresh Coconut Supplier in Thanjavur. Retail & Wholesale Coconut Supply for Hotels, Catering Services, Vegetable Shops, Weddings and Events.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f8fff5;
+color:#333;
+overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#1b5e20;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+.logo{
+color:#fff;
+font-size:28px;
+font-weight:700;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url('skp');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+color:white;
+}
+
+.hero-content{
+animation:fadeDown 1.5s ease;
+}
+
+.hero h1{
+font-size:65px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+background:#4caf50;
+padding:14px 30px;
+border-radius:40px;
+text-decoration:none;
+color:white;
+font-weight:600;
+transition:.4s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+/* SECTION */
+
+section{
+padding:90px 8%;
+}
+
+.title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+color:#1b5e20;
+}
+
+/* ABOUT */
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.about-text p{
+font-size:18px;
+line-height:1.8;
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+text-align:center;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#1b5e20;
+margin-bottom:10px;
+}
+
+/* GALLERY */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+transition:.5s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+/* CONTACT */
+
+.contact{
+background:#1b5e20;
+color:white;
+text-align:center;
+border-radius:20px;
+padding:50px;
+}
+
+.contact h2{
+margin-bottom:20px;
+}
+
+.contact p{
+margin:10px 0;
+font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* FLOATING BUTTONS */
+
+.call-btn,
+.whatsapp-btn{
+position:fixed;
+bottom:20px;
+padding:14px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+color:white;
+z-index:999;
+}
+
+.call-btn{
+left:15px;
+background:#4caf50;
+}
+
+.whatsapp-btn{
+right:15px;
+background:#25D366;
+}
+
+/* ANIMATION */
+
+.hidden{
+opacity:0;
+transform:translateY(50px);
+transition:all 1s;
+}
+
+.show{
+opacity:1;
+transform:translateY(0);
+}
+
+@keyframes fadeDown{
+from{
+opacity:0;
+transform:translateY(-50px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+nav ul{
+display:none;
+}
+
+.title{
+font-size:30px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">S.K.P Coconut</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>S.K.P Coconut</h1>
+
+<p>Fresh Coconuts for Retail & Wholesale Supply</p>
+
+<p>Trusted Coconut Supplier in Thanjavur</p>
+
+<a href="#contact" class="btn">Contact Now</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title hidden">About Us</h2>
+
+<div class="about">
+
+<img src="skp.png">
+
+<div class="about-text hidden">
+
+<p>
+
+Welcome to S.K.P Coconut, located at Annai Fathima Complex,
+S.S. Nagar, Mathakottai Road, Thanjavur.
+
+We supply premium quality coconuts for retail customers,
+wholesale buyers, vegetable shops, hotels, restaurants,
+catering services, wedding functions, temples and events.
+
+Freshness, quality and customer satisfaction are our top priorities.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title hidden">Our Services</h2>
+
+<div class="services">
+
+<div class="card hidden">
+<h3>Fresh Coconut Supply</h3>
+<p>Farm fresh coconuts every day.</p>
+</div>
+
+<div class="card hidden">
+<h3>Wholesale Supply</h3>
+<p>Bulk coconut supply at best rates.</p>
+</div>
+
+<div class="card hidden">
+<h3>Hotels & Restaurants</h3>
+<p>Daily supply for food businesses.</p>
+</div>
+
+<div class="card hidden">
+<h3>Catering Services</h3>
+<p>Reliable event and catering supply.</p>
+</div>
+
+<div class="card hidden">
+<h3>Wedding Functions</h3>
+<p>Bulk coconuts for weddings and ceremonies.</p>
+</div>
+
+<div class="card hidden">
+<h3>Temple Functions</h3>
+<p>Special supply for religious events.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="title hidden">Gallery</h2>
+
+<div class="gallery">
+
+<img src="data:image/jpeg;base64,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">
+
+<img src="https://media6.ppl-media.com/mediafiles/blogs/coconut_oil_326d2ac421.png">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-55q3ZRA5Kr9JNe3rgx4sjaBjYWGnzdM6TA&s">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQehVbBApewOcj0QZopqrvvBEzZ8ZSvLAwkjA&s">
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="contact hidden">
+
+<h2>Contact Us</h2>
+
+<p><strong>S.K.P Coconut</strong></p>
+
+<p>
+Annai Fathima Complex,<br>
+S.S. Nagar,<br>
+Mathakottai Road,<br>
+Thanjavur, Tamil Nadu
+</p>
+
+<p>📞 +91 93442 35957</p>
+
+<p>📞 +91 93617 11883</p>
+
+<p>
+Retail • Wholesale • Hotels • Catering • Events
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 S.K.P Coconut | Freshness You Can Trust
+
+</footer>
+
+<a href="tel:9344235957" class="call-btn">
+📞 Call
+</a>
+
+<a href="https://wa.me/919344235957" class="whatsapp-btn">
+💬 WhatsApp
+</a>
+
+<script>
+
+const observer =
+new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add('show');
+
+}
+
+});
+
+});
+
+document.querySelectorAll('.hidden')
+.forEach((el)=>observer.observe(el));
+
+</script>
+
+</body>
+</html>
